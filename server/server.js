@@ -43,7 +43,7 @@ function myEquation(){
             case '-':
                 answer = Number(numInputs.numOneInput) - Number(numInputs.numTwoInput)
                 break;
-                case '*':
+                case 'x':
             answer = Number(numInputs.numOneInput) * Number(numInputs.numTwoInput)
             break;
             case '/':
@@ -51,12 +51,12 @@ function myEquation(){
             break;
     }
 
-let finalEval={
+let finalAnswer={
     numOneInput: numInputs.numOneInput,
     operator: numInputs.operator,
     numTwoInput: numInputs.numTwoInput,
     mathAnswer: answer
 }
-calculations.push(finalEval)
+calculations.push(finalAnswer)
     console.log(calculations)
 }
