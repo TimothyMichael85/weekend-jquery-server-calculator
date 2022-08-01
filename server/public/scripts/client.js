@@ -3,7 +3,7 @@ console.log('client.js test')
 $(onReady);
 
 function onReady(){
-console.log('ready!');
+console.log('we are ready!');
 
 // click listeners
 $('#submitBtn').on('click', submit);
