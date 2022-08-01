@@ -40,13 +40,13 @@ function myEquation(){
         case '+':
             answer = Number(numInputs.numOneInput) + Number(numInputs.numTwoInput)
             break;
-            case '-':
-                answer = Number(numInputs.numOneInput) - Number(numInputs.numTwoInput)
-                break;
-                case 'x':
+        case '-':
+            answer = Number(numInputs.numOneInput) - Number(numInputs.numTwoInput)
+            break;
+        case '*':
             answer = Number(numInputs.numOneInput) * Number(numInputs.numTwoInput)
             break;
-            case '/':
+        case '/':
             answer = Number(numInputs.numOneInput) / Number(numInputs.numTwoInput)
             break;
     }
